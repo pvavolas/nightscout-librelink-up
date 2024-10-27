@@ -4,11 +4,11 @@
   "formation": {
     "web": {
       "quantity": 0,
-      "size": "eco"
+      "size": "free"
     },
     "worker": {
       "quantity": 1,
-      "size": "eco"
+      "size": "free"
     }
   },
   "env": {
@@ -33,7 +33,7 @@
       "required": true
     },
     "LINK_UP_REGION": {
-      "description": "Your region. Used to determine the correct LibreLinkUp service (Possible values: AE, AP, AU, CA, DE, EU2, EU2, FR, JP, US)",
+      "description": "Your region. Used to determine the correct LibreLinkUp service (Possible values: US, EU, DE, FR, JP, AP, AU, AE)",
       "value": "EU",
       "required": false
     },
@@ -47,20 +47,10 @@
       "value": "",
       "required": true
     },
-    "NIGHTSCOUT_DISABLE_HTTPS": {
-      "description": "Disables the HTTPS requirement for Nightscout URLs",
-      "value": "",
-      "required": false
-    },
     "LOG_LEVEL": {
       "description": "The log-level to use.",
       "value": "info",
-      "required": false
-    },
-    "SINGLE_SHOT": {
-      "description": "Disables the scheduler and runs the script just once",
-      "value": "",
-      "required": false
+      "required": true
     }
   }
 }
